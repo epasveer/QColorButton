@@ -15,18 +15,18 @@ ScreenShot
 Running the test program will initially show a window with an initial color.
 Red in the case of the test program.
 
-![](images/qcolorbar.png)
+![](images/qcolorbutton.png)
 
 
 Double click the red area to bring up the standard color dialog.
 
-![](images/qcolorbar_with_dialog.png)
+![](images/qcolorbutton_with_dialog.png)
 
 
 Selecting OK after choosing a different color will result in the red
 area changing to the color you chose.
 
-![](images/qcolorbar_result.png)
+![](images/qcolorbutton_result.png)
 
 
 Building QColorButton
