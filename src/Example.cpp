@@ -9,6 +9,8 @@ Example::Example(QWidget *parent) : QWidget(parent) {
     QColorButton* button = new QColorButton(this);
     button->setGeometry(16, 16, 64, 32);
     button->setColor(QColor("red"));
+    button->setFrameStyle(QFrame::Box|QFrame::Plain);
+    button->setLineWidth(1);
 }
 
 Example::~Example() {

@@ -7,7 +7,8 @@ color when it's double-clicked.
 There's an api to set the initial color for QColorButton and retrieve its
 new color.
 
-Copy QColorButton.h and QColorButton.cpp to your project.
+Copy QColorButton.ui, QColorButton.h, QColorButton.cpp, QColorSwatch.h, QColorSwatch.cpp to your project.
+Make sure your build system does auotmatic creation of moc files from the .ui file.
 
 ScreenShot
 ==========
